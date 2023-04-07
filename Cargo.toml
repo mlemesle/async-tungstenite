@@ -55,7 +55,9 @@ version = "0.10"
 
 [dependencies.real-async-tls]
 optional = true
-version = "0.12"
+# version = "0.12"
+git = "https://github.com/mlemesle/async-tls"
+branch = "chore/bump-rustls"
 package = "async-tls"
 
 [dependencies.real-async-native-tls]
